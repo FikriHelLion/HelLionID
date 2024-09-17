@@ -1,0 +1,2371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelLionID - Situs Perbelanjaan Online Terpercaya & Termurah</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/faviconid.ico" type="image/x-icon">
+
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="./css/style.prefix.css">
+
+      <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <div class="overlay" data-overlay></div>
+
+    <!-- Modal -->
+    <div class="modal" data-modal>
+        <div class="modal-close-overlay" data-modal-overlay></div>
+        <div class="modal-content">
+            <button class="modal-close-btn" data-modal-close>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="newsletter-img">
+                <img src="./assets/newsletter.png" alt="" width="400" height="400">
+            </div>
+            <div class="newsletter">
+                <form action="">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">HelLionID</h3>
+                        <p class="newsletter-desc">
+                            Subscribe <b>HelLionID</b> Untuk Mendapatkan Update Terbaru & Discount
+                        </p>
+                    </div>
+                    <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+                    <button type="submit" class="btn-newsletter">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="notification-toast" data-toast>
+        <button class="toast-close-btn" data-toast-close>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <div class="toast-banner">
+            <img src="./assets/coupon.png" alt="" width="80" height="70">
+        </div>
+        <div class="toast-detail">
+            <p class="toast-message">Selamat Anda Mendapatkan Voucer Belanja Rp.100.000</p>
+            <p class="toast-title">Ambil Sekarang</p>
+            <p class="toast-meta">
+                <time datetime="PT2M">2 Menit</time> Lalu
+            </p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <ul class="header-social-container">
+                    <li><a href="" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+                <div class="header-alert-news">
+                    <p><b>Dapatkan Diskon</b> Hanya Dengan Belanja 3 Item</p>
+                </div>
+                <div class="header-top-actions">
+                    <select name="currency">
+                        <option value="usd">IDR &dollar;</option>
+                        <option value="eur">USD &dollar;</option>
+                    </select>
+
+                    <select name="language">
+                        <option value="en-ID">Indonesia</option>
+                        <option value="en-US">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-main">
+            <div class="container">
+                <a href="" class="header-logo"><img src="./assets/logoid.png" alt="" width="120" height="36"></a>
+                <div class="header-search-container">
+                    <input type="search" name="search" class="search-field" placeholder="Masukan Kata Kunci">
+                    <button class="search-btn"><ion-icon name="search-outline"></ion-icon></button>
+                </div>
+                <div class="header-user-actions">
+                    <button class="action-btn">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </button>
+                    <button class="action-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <span class="count">0</span>
+                    </button>
+                    <button class="action-btn">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <span class="count">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <nav class="desktop-navigation-menu">
+            <div class="container">
+                <ul class="desktop-menu-category-list">
+                    <li class="menu-category"><a href="" class="menu-title">Home</a></li>
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Kategori</a>
+                        <div class="dropdown-panel">
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title"><a href="">Pria</a></li>
+                                <li class="panel-list-item"><a href="">Pakaian Pria</a></li>
+                                <li class="panel-list-item"><a href="">Aksesoris Pria</a></li>
+                                <li class="panel-list-item"><a href="">Otomotif</a></li>
+                                <li class="panel-list-item"><a href="">Olahraga & Outdoor</a></li>
+                                <li class="panel-list-item"><a href="">Hobi & Koleksi</a></li>
+                                <li class="panel-list-item">
+                                    <a href=""><img src="./assets/category-1.png" alt="" width="250" height="119"></a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title"><a href="">Wanita</a></li>
+                                <li class="panel-list-item"><a href="">Pakaian Wanita</a></li>
+                                <li class="panel-list-item"><a href="">Fashion Muslim</a></li>
+                                <li class="panel-list-item"><a href="">Tas Wanita</a></li>
+                                <li class="panel-list-item"><a href="">Aksesoris Fashion</a></li>
+                                <li class="panel-list-item"><a href="">Perawatan & Kecantikan</a></li>
+                                <li class="panel-list-item">
+                                    <a href=""><img src="./assets/category-2.png" alt="" width="250" height="119"></a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title"><a href="">Anak</a></li>
+                                <li class="panel-list-item"><a href="">Fashion Anak</a></li>
+                                <li class="panel-list-item"><a href="">Buku & Alat Tulis</a></li>
+                                <li class="panel-list-item"><a href="">Kesehatan</a></li>
+                                <li class="panel-list-item"><a href="">Aksesoris Belajar</a></li>
+                                <li class="panel-list-item"><a href="">Mainan & Games</a></li>
+                                <li class="panel-list-item">
+                                    <a href=""><img src="./assets/category-3.png" alt="" width="250" height="119"></a>
+                                </li>
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+                                <li class="menu-title"><a href="">Aksesoris</a></li>
+                                <li class="panel-list-item"><a href="">Jam Tangan</a></li>
+                                <li class="panel-list-item"><a href="">Cincin</a></li>
+                                <li class="panel-list-item"><a href="">Kalung</a></li>
+                                <li class="panel-list-item"><a href="">Gelang</a></li>
+                                <li class="panel-list-item"><a href="">Dompet</a></li>
+                                <li class="panel-list-item">
+                                    <a href=""><img src="./assets/category-4.png" alt="" width="250" height="119"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Pria</a>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-item"><a href="">Kemeja & Kaos</a></li>
+                            <li class="dropdown-item"><a href="">Celana Pendek</a></li>
+                            <li class="dropdown-item"><a href="">Jeans & Joger</a></li>
+                            <li class="dropdown-item"><a href="">Sepatu & Sendal</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Wanita</a>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-item"><a href="">Gamis & Gaun</a></li>
+                            <li class="dropdown-item"><a href="">Cincin & Anting</a></li>
+                            <li class="dropdown-item"><a href="">Perfume</a></li>
+                            <li class="dropdown-item"><a href="">Make Up</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Aksesoris</a>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-item"><a href="">Jam Tangan</a></li>
+                            <li class="dropdown-item"><a href="">Kacamata</a></li>
+                            <li class="dropdown-item"><a href="">Topi & Gelang</a></li>
+                            <li class="dropdown-item"><a href="">Dompet</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="" class="menu-title">Hobi & Koleksi</a>
+                        <ul class="dropdown-list">
+                            <li class="dropdown-item"><a href="">Gitar & Drum</a></li>
+                            <li class="dropdown-item"><a href="">Piano & Pianika</a></li>
+                            <li class="dropdown-item"><a href="">Figure & Lego</a></li>
+                            <li class="dropdown-item"><a href="">Bola & Raket</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category"><a href="" class="menu-title">Blog</a></li>
+                    <li class="menu-category"><a href="" class="menu-title">Hot Offers</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mobile-bottom-navigation">
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+            <button class="action-btn">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+                <span class="count">0</span>
+            </button>
+            <button class="action-btn">
+                <ion-icon name="home-outline"></ion-icon>
+            </button>
+            <button class="action-btn">
+                <ion-icon name="heart-outline"></ion-icon>
+                <span class="count">0</span>
+            </button>
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <ion-icon name="grid-outline"></ion-icon>
+            </button>
+        </div>
+
+        <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+            <div class="menu-top">
+                <h2 class="menu-title">Menu</h2>
+                <button class="menu-close-btn" data-mobile-menu-close-btn>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="mobile-menu-category-list">
+                <li class="menu-category"><a href="" class="menu-title">Home</a></li>
+                <li class="menu-category">
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Pria</p>
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+                    <ul class="submenu-category-list" data-accordion>
+                        <li class="submenu-category"><a href="" class="submenu-title">Kemeja & Kaos</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Celana Pendek</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Jeans & Joger</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Sepatu & Sendal</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-category">
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Wanita</p>
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+                    <ul class="submenu-category-list" data-accordion>
+                        <li class="submenu-category"><a href="" class="submenu-title">Gamis & Gaun</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Cincin & Anting</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Perfume</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Make Up</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-category">
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Aksesoris</p>
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+                    <ul class="submenu-category-list" data-accordion>
+                        <li class="submenu-category"><a href="" class="submenu-title">Jam Tangan</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Kacamata</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Topi & Gelang</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Dompet</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-category">
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Hobi & Koleksi</p>
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+                    <ul class="submenu-category-list" data-accordion>
+                        <li class="submenu-category"><a href="" class="submenu-title">Gitar & Drum</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Piano & Pianika</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Figure & Lego</a></li>
+                        <li class="submenu-category"><a href="" class="submenu-title">Bola & Raket</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-category"><a href="" class="menu-title">Blog</a></li>
+                <li class="menu-category"><a href="" class="menu-title">Hot Offers</a></li>
+            </ul>
+
+            <div class="menu-bottom">
+                <ul class="menu-category-list">
+                    <li class="menu-category">
+                        <button class="accordion-menu" data-accordion-btn>
+                            <p class="menu-title">Bahasa</p>
+                            <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                        </button>
+                        <ul class="submenu-category-list" data-accordion>
+                            <li class="submenu-category"><a href="" class="submenu-title">Indonesia</a></li>
+                            <li class="submenu-category"><a href="" class="submenu-title">English</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <button class="accordion-menu" data-accordion-btn>
+                            <p class="menu-title">Currency</p>
+                            <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                        </button>
+                        <ul class="submenu-category-list" data-accordion>
+                            <li class="submenu-category"><a href="" class="submenu-title">IDR &dollar;</a></li>
+                            <li class="submenu-category"><a href="" class="submenu-title">USD &dollar;</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="menu-social-container">
+                    <li><a href="" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Banner -->
+        <div class="banner">
+            <div class="container">
+                <div class="slider-container has-scrollbar">
+                    <div class="slider-item">
+                        <img src="./assets/banner-1.png" alt="" class="banner-img">
+                        <div class="banner-content">
+                            <p class="banner-subtitle">Trending Item</p>
+                            <h2 class="banner-title">Belanja Hemat Hanya di HelLionID</h2>
+                            <p class="banner-text">Mulai Dari Rp <b>50</b>.000</p>
+                            <a href="" class="banner-btn">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/banner-2.png" alt="" class="banner-img">
+                        <div class="banner-content">
+                            <p class="banner-subtitle">Trending Aksesoris</p>
+                            <h2 class="banner-title">Kacamata Modern</h2>
+                            <p class="banner-text">Mulai Dari Rp <b>20</b>.000</p>
+                            <a href="" class="banner-btn">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="./assets/banner-3.png" alt="" class="banner-img">
+                        <div class="banner-content">
+                            <p class="banner-subtitle">Sale Offers</p>
+                            <h2 class="banner-title">New Fashion Summer Sale</h2>
+                            <p class="banner-text">Mulai Dari Rp <b>50</b>.000</p>
+                            <a href="" class="banner-btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category -->
+        <div class="category">
+            <div class="container">
+                <div class="category-item-container has-scrollbar">
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/gaun.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Gamis & Gaun</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/kemeja.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Kemeja & Kaos</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/jeans.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Jeans & Joger</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/sepatu.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Sepatu & Sendal</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/jam tangan.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Jam Tangan</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/jaket.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Jacket</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/makeup.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Make Up</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+
+                    <div class="category-item">
+                        <div class="category-img-box">
+                            <img src="./assets/tas.png" alt="" width="30">
+                        </div>
+                        <div class="category-content-box">
+                            <div class="category-content-flex">
+                                <h3 class="category-item-title">Tas & Dompet</h3>
+                                <p class="category-item-amount">(50)</p>
+                            </div>
+                            <a href="" class="category-btn">Show all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product -->
+        <div class="product-container">
+            <div class="container">
+                <div class="sidebar has-scrollbar" data-mobile-menu>
+                    <div class="sidebar-category">
+                        <div class="sidebar-top">
+                            <h2 class="sidebar-title">Kategori</h2>
+                            <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                                <ion-icon name="close-outline"></ion-icon>
+                            </button>
+                        </div>
+
+                        <ul class="sidebar-menu-category-list">
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/pakaian.png" alt="" width="20" height="20" class="menu-title-img">
+                                        <p class="menu-title">Kaos</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Kaos</p>
+                                            <data value="300" class="stock" title="Available Stock">300</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Celana</p>
+                                            <data value="300" class="stock" title="Available Stock">300</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Jacket</p>
+                                            <data value="300" class="stock" title="Available Stock">300</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Gamis & Gaun</p>
+                                            <data value="300" class="stock" title="Available Stock">300</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/celana.png" alt="" class="menu-title-img" width="20" height="20">
+                                        <p class="menu-title">Celana</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Jeans</p>
+                                            <data value="45" class="stock" title="Available Stock">45</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Joger</p>
+                                            <data value="45" class="stock" title="Available Stock">45</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Formal</p>
+                                            <data value="45" class="stock" title="Available Stock">45</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Denim</p>
+                                            <data value="45" class="stock" title="Available Stock">45</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/sepatu-category.png" alt="" class="menu-title-img" width="20" height="20">
+                                        <p class="menu-title">Sepatu</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Adidas</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Nike</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Converse</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/tas-category.png" alt="" class="menu-title-img" width="20" height="20">
+                                        <p class="menu-title">Tas</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Ransel</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Tas Kecil</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Tas Belanja</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/makeup-category.png" alt="" class="menu-title-img" width="20" height="20">
+                                        <p class="menu-title">Kosmetik</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Shampoo</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Body Wash</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Sunscreen</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Makeup Kit</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/kacamata-category.png" alt="" class="menu-title-img" width="20" height="20">
+                                        <p class="menu-title">Kacamata</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Kacamata Style</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Kacamata Rabun</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="sidebar-menu-category">
+                                <button class="sidebar-accordion-menu" data-accordion-btn>
+                                    <div class="menu-title-flex">
+                                        <img src="./assets/akustik-category.png" alt="" class="menu-title-img" width="20" height="20">
+                                        <p class="menu-title">Akustik</p>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                                    </div>
+                                </button>
+
+                                <ul class="sidebar-submenu-category-list" data-accordion>
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Gitar</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Drum</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Piano</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+
+                                    <li class="sidebar-submenu-category">
+                                        <a href="" class="sidebar-submenu-title">
+                                            <p class="product-name">Pianika</p>
+                                            <data value="50" class="stock" title="Available Stock">50</data>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="product-showcase">
+                        <h3 class="showcase-heading">Best Seller</h3>
+                        <div class="showcase-wrapper">
+                            <div class="showcase-container">
+                                <div class="showcase">
+                                    <a href="" class="showcase-img-box">
+                                        <img src="./assets/adidas-showcase.png" alt="" width="75" height="75" class="showcase-img">
+                                    </a>
+                                    <div class="showcase-content">
+                                        <a href=""><h4 class="showcase-title">Sepatu Adidas Samba</h4></a>
+                                        <div class="showcase-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+                                        <div class="price-box">
+                                            <del>Rp.2.899K</del>
+                                            <p class="price">Rp.2.200.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="showcase">
+                                    <a href="" class="showcase-img-box">
+                                        <img src="./assets/nb550-showcase.png" alt="" width="75" height="75" class="showcase-img">
+                                    </a>
+                                    <div class="showcase-content">
+                                        <a href=""><h4 class="showcase-title">Sepatu NB 550</h4></a>
+                                        <div class="showcase-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+                                        <div class="price-box">
+                                            <del>Rp.2.499K</del>
+                                            <p class="price">Rp.1.999.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="showcase">
+                                    <a href="" class="showcase-img-box">
+                                        <img src="./assets/nike-showcase.png" alt="" width="75" height="75" class="showcase-img">
+                                    </a>
+                                    <div class="showcase-content">
+                                        <a href=""><h4 class="showcase-title">Sepatu Nike Air Jordan</h4></a>
+                                        <div class="showcase-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+                                        <div class="price-box">
+                                            <del>Rp.2.499K</del>
+                                            <p class="price">Rp.1.939.000</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="showcase">
+                                    <a href="" class="showcase-img-box">
+                                        <img src="./assets/convers-showcase.png" alt="" width="75" height="75" class="showcase-img">
+                                    </a>
+                                    <div class="showcase-content">
+                                        <a href=""><h4 class="showcase-title">Sepatu Converse 70s</h4></a>
+                                        <div class="showcase-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+                                        <div class="price-box">
+                                            <del>Rp.1.499K</del>
+                                            <p class="price">Rp.1.299,000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-box">
+                    <!-- Product Minimal -->
+                    <div class="product-minimal">
+                        <div class="product-showcase">
+                            <h2 class="title">New Arrivals</h2>
+                            <div class="showcase-wrapper has-scrollbar">
+                                <div class="showcase-container">
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/pm-polo.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Polo Shirt Island Blue</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Kaos</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.849.000</p>
+                                                <del>Rp.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/dickies-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Work Jacket Dickies Black</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Jaket</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.999.000</p>
+                                                <del>Rp.1.499K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/h&m-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Jacket Zipper H&M Black</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Jaket</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.899.000</p>
+                                                <del>Rp.1.299K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/lacoste-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Lacoste Shirt Green Day</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Kaos</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.999.000</p>
+                                                <del>Rp.1.499K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/zara-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Zara Rajut Shirt Cream</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Kaos</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.879.000</p>
+                                                <del>Rp.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/playboy-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Playboy Jacket Zipper One</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Jaket</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.1.199.000</p>
+                                                <del>Rp.1499K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/golf-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Golf Sunny Summer</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Jaket</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.1.499.000</p>
+                                                <del>Rp.1.899K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/france-pm.png" alt="" width="70" class="showcase-img">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">France Shirt Stripe</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Kaos</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.699.000</p>
+                                                <del>Rp.799K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-showcase">
+                            <h2 class="title">Trending</h2>
+                            <div class="showcase-wrapper has-scrollbar">
+                                <div class="showcase-container">
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/adidas-superstar-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Adidas Superstar</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.1.300.000</p>
+                                                <del>Rp.1699K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/gazzele-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Adidas Gazzle</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.1.700.000</p>
+                                                <del>Rp.1.899K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/spezial-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Adidas Spezial</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.2.200.000</p>
+                                                <del>Rp.2.499K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/london-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Adidas London</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.2.350.000</p>
+                                                <del>Rp.2.599K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/forcef1-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Nike Aie Force 1</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.999.000</p>
+                                                <del>Rp.1.299K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/nikemid1-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Nike Air Jordan Mid 1</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.4.500.000</p>
+                                                <del>Rp.4.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/nikegreyfog-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Nike Grey Fog</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.3.499.000</p>
+                                                <del>Rp.3.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/retrogs-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Sepatu Nike Retro GS</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Sepatu</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.1.999.000</p>
+                                                <del>Rp.2.349K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-showcase">
+                            <h2 class="title">Top Rated</h2>
+                            <div class="showcase-wrapper has-scrollbar">
+                                <div class="showcase-container">
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/leather-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Wanita Leather</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.6.999.000</p>
+                                                <del>Rp.7.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/saintlauren-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Wanita Saint Lauren</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.24.999.000</p>
+                                                <del>Rp.30.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/vercase-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Wanita Vercase</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.16.000.000</p>
+                                                <del>Rp.18.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/leoetviolette-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Wanita D'Evolette</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.899.000</p>
+                                                <del>Rp.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/bagmargus-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Ransel Louis Vuitton</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.19.000.000</p>
+                                                <del>Rp.20.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/bagschool-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Ransel Pink</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.890.000</p>
+                                                <del>Rp.1.299K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/bagchanel-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Wanita Chanel</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.12.999.000</p>
+                                                <del>Rp.14.999K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="showcase">
+                                        <a href="" class="showcase-img-box">
+                                            <img src="./assets/henribendel-pm.png" alt="" class="showcase-img" width="70">
+                                        </a>
+                                        <div class="showcase-content">
+                                            <a href="">
+                                                <h4 class="showcase-title">Tas Wanita Henri Bandle</h4>
+                                            </a>
+                                            <a href="" class="showcase-category">Tas</a>
+                                            <div class="price-box">
+                                                <p class="price">Rp.3.999.000</p>
+                                                <del>Rp.4.299K</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Featured-->
+                    <div class="product-featured">
+                        <h2 class="title">Deals Of The Days</h2>
+                        <div class="showcase-wrapper has-scrollbar">
+                            <div class="showcase-container">
+                                <div class="showcase">
+                                    <div class="showcase-banner">
+                                        <img src="./assets/gucci.png" alt="" class="showcase-img">
+                                    </div>
+                                    <div class="showcase-content">
+                                        <div class="showcase-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+                                        <a href=""><h3 class="showcase-title">Gucci Polo Shirt Metalic Jacquard</h3></a>
+                                        <p class="showcase-desc">
+                                            Kemeja Polo Gucci dirajut Jacquard di Italia dari campuran
+                                            katun pasir lembut dengan tulisan 'GG' dengan benang perak berkilauan.
+                                        </p>
+                                        <div class="price-box">
+                                            <p class="price">Rp.21.500.000</p>
+                                            <del>Rp.31.000.000</del>
+                                        </div>
+                                        <button class="add-cart-btn">Masukkan Keranjang</button>
+                                        <div class="showcase-status">
+                                            <div class="wrapper">
+                                                <p>Terjual: <b>7</b></p>
+                                                <p>Tersedia: <b>3</b></p>
+                                            </div>
+                                            <div class="showcase-status-bar"></div>
+                                        </div>
+                                        <div class="countdown-box">
+                                            <p class="countdown-desc">Buruan! Penawaran berakhir pada:</p>
+                                            <div class="countdown">
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Hari</p>
+                                                </div>
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Jam</p>
+                                                </div>
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Menit</p>
+                                                </div>
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Detik</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase-container">
+                                <div class="showcase">
+                                    <div class="showcase-banner">
+                                        <img src="./assets/tas-gucci.png" alt="" class="showcase-img">
+                                    </div>
+                                    <div class="showcase-content">
+                                        <div class="showcase-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+                                        <h3 class="showcase-title">
+                                            <a href="" class="showcase-title">GG Emblem Small Shoulder Bag</a>
+                                        </h3>
+                                        <p class="showcase-desc">
+                                            Koleksi GG Emblem yang baru menafsirkan kembali sejarah keanggunan dan keahlian House. Tas ini memiliki tiga kompartemen, rantai dan berwarna emas muda dan dilengkapi dengan kulit tambahan.
+                                        </p>
+                                        <div class="price-box">
+                                            <p class="price">Rp.59.000.000</p>
+                                            <del>Rp.69.000.000</del>
+                                        </div>
+                                        <button class="add-cart-btn">Masukkan Keranjang</button>
+                                        <div class="showcase-status">
+                                            <div class="wrapper">
+                                                <p>Terjual: <b>7</b></p>
+                                                <p>Tersedia: <b>3</b></p>
+                                            </div>
+                                            <div class="showcase-status-bar"></div>
+                                        </div>
+                                        <div class="countdown-box">
+                                            <p class="countdown-desc">Buruan! Penawaran berakhir pada:</p>
+                                            <div class="countdown">
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Hari</p>
+                                                </div>
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Jam</p>
+                                                </div>
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Menit</p>
+                                                </div>
+                                                <div class="countdown-content">
+                                                    <p class="display-number">0</p>
+                                                    <p class="display-text">Detik</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Grid -->
+                    <div class="product-main">
+                        <h2 class="title">New Products</h2>
+                        <div class="product-grid">
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/lacoste-product-1.png" alt="" width="300" class="product-img default">
+                                    <img src="./assets/lacoste-product-2.png" alt="" width="300" class="product-img hover">
+                                    <p class="showcase-badge">15%</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Polo</a>
+                                    <a href=""><h3 class="showcase-title">Lacoste Monogram Polo</h3></a>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.1.399.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/newyork-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/newyork-product-2.png" alt="" class="product-img hover" width="300">
+                                    <p class="showcase-badge angel black">Sale</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Polo</a>
+                                    <h3><a href="" class="showcase-title">Polo Newyork Stripe-Vertical</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.1.499.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/raplh-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/raplh-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Polo</a>
+                                    <h3><a href="" class="showcase-title">Raplh Lauren Polo Shirt</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.1.299.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/ussex-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/ussex-product-2.png" alt="" class="product-img hover" width="300">
+                                    <p class="showcase-badge angel pink">New</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Polo</a>
+                                    <h3><a href="" class="showcase-title">Essex Striped Knit Polo</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.1.499.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/90s-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/90s-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Celana</a>
+                                    <h3><a href="" class="showcase-title">PacSun '90s Ripped Jeans</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.899.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/denim-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/denim-product-2.png" alt="" class="product-img hover" width="300">
+                                    <p class="showcase-badge angel black">Sale</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Celana</a>
+                                    <h3><a href="" class="showcase-title">Denim Loomstate Selvedge</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.3.799.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/selvege-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/selvege-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Celana</a>
+                                    <h3><a href="" class="showcase-title">Lean Dean Heavy Selvage</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.3.999.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/skinny-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/skinny-product-2.png" alt="" class="product-img hover" width="300">
+                                    <p class="showcase-badge angel black">Sale</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Celana</a>
+                                    <h3><a href="" class="showcase-title">Skinny Flocked Denim</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.6.499.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/iceblue-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/iceblue-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Sepatu</a>
+                                    <h3><a href="" class="showcase-title">Adidas Samba OG Blue Ice</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.2.200.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/travis-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/travis-product-2.png" alt="" class="product-img hover" width="300">
+                                    <p class="showcase-badge angel black">Sale</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Sepatu</a>
+                                    <h3><a href="" class="showcase-title">Nike Air Jordan Travis Scott</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.32.000.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/nb550-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/nb550-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Sepatu</a>
+                                    <h3><a href="" class="showcase-title">New Balance 550 Black</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.2.090.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/assics-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/assics-product-2.png" alt="" class="product-img hover" width="300">
+                                    <p class="showcase-badge angel black">Sale</p>
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Sepatu</a>
+                                    <h3><a href="" class="showcase-title">Assics US5-S Gel-Quantum</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.4.299.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/LV-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/LV-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Tas</a>
+                                    <h3><a href="" class="showcase-title">LV Mini Moon Cream</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.8.999.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/cc-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/cc-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Tas</a>
+                                    <h3><a href="" class="showcase-title">Chanel Seasonal Mini</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.11.000.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/gc-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/gc-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Tas</a>
+                                    <h3><a href="" class="showcase-title">Gucci Blondie Shoulder Bag</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.32.000.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="showcase">
+                                <div class="showcase-banner">
+                                    <img src="./assets/balenciaga-product-1.png" alt="" class="product-img default" width="300">
+                                    <img src="./assets/balenciaga-product-2.png" alt="" class="product-img hover" width="300">
+                                    <div class="showcase-actions">
+                                        <button class="btn-action">
+                                            <ion-icon name="heart-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="eye-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="repeat-outline"></ion-icon>
+                                        </button>
+                                        <button class="btn-action">
+                                            <ion-icon name="bag-add-outline"></ion-icon>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="showcase-content">
+                                    <a href="" class="showcase-category">Tas</a>
+                                    <h3><a href="" class="showcase-title">Balenciaga Bolsa Hourglass</a></h3>
+                                    <div class="showcase-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                                    <div class="price-box">
+                                        <p class="price">Rp.590.000.000</p>
+                                        <del></del>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial & CTA & Service -->
+        <div>
+            <div class="container">
+                <div class="testimonials-box">
+
+                    <!-- Testimonial -->
+                    <div class="testimonial">
+                        <h2 class="title">Testimonial</h2>
+                        <div class="testimonial-card">
+                            <img src="./assets/logotesti.png" alt="" class="testimonial-banner" width="80" height="80">
+                            <p class="testimonial-name">Fikri HelLion</p>
+                            <p class="testimonial-title">CEO & Founder HelLionID</p>
+                            <img src="./assets/quotes.png" alt="" class="quotation-img" width="26">
+                            <p class="testimonial-desc">
+                                Website ini hanya menampilkan bagian depan nya saja untuk bagian login & checkout dan beberapa bagian ada yang belum berfungsi.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="cta-container">
+                        <img src="./assets/cta-banner.png" alt="" class="cta-banner">
+                        <a href="" class="cta-content">
+                            <p class="discount">Pesan</p>
+                            <h2 class="cta-title">Terima Kasih</h2>
+                            <p class="cta-text">Atas Kunjungan Nya</p>
+                            <button class="cta-btn">@fikrihellions</button>
+                        </a>
+                    </div>
+
+                    <!-- Service -->
+                    <div class="service">
+                        <h2 class="title">Our Services</h2>
+                        <div class="service-container">
+                            <a href="" class="service-item">
+                                <div class="service-icon">
+                                    <ion-icon name="boat-outline"></ion-icon>
+                                </div>
+                                <div class="service-content">
+                                    <h3 class="service-title">Pengiriman Berbagai Dunia</h3>
+                                    <p class="service-desc">Dengan Ongkir Murah</p>
+                                </div>
+                            </a>
+
+                            <a href="" class="service-item">
+                                <div class="service-icon">
+                                    <ion-icon name="rocket-outline"></ion-icon>
+                                </div>
+                                <div class="service-content">
+                                    <h3 class="service-title">Pengiriman Instant</h3>
+                                    <p class="service-desc">Untuk Wilayah Jabodetabek</p>
+                                </div>
+                            </a>
+
+                            <a href="" class="service-item">
+                                <div class="service-icon">
+                                    <ion-icon name="call-outline"></ion-icon>
+                                </div>
+                                <div class="service-content">
+                                    <h3 class="service-title">Order Khusus VIP</h3>
+                                    <p class="service-desc">Mulai Jam: 8AM - 11AM</p>
+                                </div>
+                            </a>
+
+                            <a href="" class="service-item">
+                                <div class="service-icon">
+                                    <ion-icon name="arrow-undo-outline"></ion-icon>
+                                </div>
+                                <div class="service-content">
+                                    <h3 class="service-title">Pengembalian Barang</h3>
+                                    <p class="service-desc">Pengembalian Mudah dan Gratis</p>
+                                </div>
+                            </a>
+
+                            <a href="" class="service-item">
+                                <div class="service-icon">
+                                    <ion-icon name="ticket-outline"></ion-icon>
+                                </div>
+                                <div class="service-content">
+                                    <h3 class="service-title">Diskon Sampai 40%</h3>
+                                    <p class="service-desc">Dengan Pembelian Min Rp.1 Juta</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blog -->
+        <div class="blog">
+            <div class="container">
+                <div class="blog-container has-scrollbar">
+                    <div class="blog-card">
+                        <a href=""><img src="./assets/giveaway.png" alt="" class="blog-banner" width="300"></a>
+                        <div class="blog-content">
+                            <a href="" class="blog-category">Giveaway</a>
+                            <a href="">
+                                <h3 class="blog-title">HelLionID bagi-bagi sepatu setiap hari? Ini caranya</h3>
+                            </a>
+                            <p class="blog-meta">
+                                By <cite>Fikri HelLion</cite> / <time datetime="2024-10-10">Oct 10, 2024</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <a href=""><img src="./assets/privacy.png" alt="" class="blog-banner" width="300"></a>
+                        <div class="blog-content">
+                            <a href="" class="blog-category">Privacy</a>
+                            <a href="">
+                                <h3 class="blog-title">Lakukan cara ini agar akun kalian terlindungi</h3>
+                            </a>
+                            <p class="blog-meta">
+                                By <cite>Fikri HelLion</cite> / <time datetime="2024-10-10">Oct 10, 2024</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <a href=""><img src="./assets/profil.png" alt="" class="blog-banner" width="300"></a>
+                        <div class="blog-content">
+                            <a href="" class="blog-category">Profil</a>
+                            <a href="">
+                                <h3 class="blog-title">Ini dia Profil CEO & FOUNDER sekaligus Pembuat Website</h3>
+                            </a>
+                            <p class="blog-meta">
+                                By <cite>Fikri HelLion</cite> / <time datetime="2024-10-10">Oct 10, 2024</time>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <a href=""><img src="./assets/seller.png" alt="" class="blog-banner" width="300"></a>
+                        <div class="blog-content">
+                            <a href="" class="blog-category">Seller</a>
+                            <a href="">
+                                <h3 class="blog-title">Ini cara nya agar kalian bisa berjualan di HelLionID</h3>
+                            </a>
+                            <p class="blog-meta">
+                                By <cite>Fikri HelLion</cite> / <time datetime="2024-10-10">Oct 10, 2024</time>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-category">
+            <div class="container">
+                <h2 class="footer-category-title">Brand directory</h2>
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Pakaian :</h3>
+                    <a href="" class="footer-category-link">Kemeja</a>
+                    <a href="" class="footer-category-link">Kaos</a>
+                    <a href="" class="footer-category-link">Polo</a>
+                    <a href="" class="footer-category-link">Hoddie</a>
+                    <a href="" class="footer-category-link">Jaket</a>
+                    <a href="" class="footer-category-link">Gaun</a>
+                    <a href="" class="footer-category-link">Busana Muslim</a>
+                    <a href="" class="footer-category-link">Crop Top</a>
+                    <a href="" class="footer-category-link">Baju Tidur</a>
+                    <a href="" class="footer-category-link">Kaos Style Pria</a>
+                    <a href="" class="footer-category-link">Kaos Style Wanita</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Celana :</h3>
+                    <a href="" class="footer-category-link">Jeans</a>
+                    <a href="" class="footer-category-link">Joger</a>
+                    <a href="" class="footer-category-link">Levis</a>
+                    <a href="" class="footer-category-link">Denim</a>
+                    <a href="" class="footer-category-link">Celana Pendek</a>
+                    <a href="" class="footer-category-link">Cargo</a>
+                    <a href="" class="footer-category-link">BG</a>
+                    <a href="" class="footer-category-link">Skinny Jeans</a>
+                    <a href="" class="footer-category-link">Cutbray</a>
+                    <a href="" class="footer-category-link">Regular</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Sepatu :</h3>
+                    <a href="" class="footer-category-link">Adidas</a>
+                    <a href="" class="footer-category-link">Nike</a>
+                    <a href="" class="footer-category-link">Converse</a>
+                    <a href="" class="footer-category-link">New Balance</a>
+                    <a href="" class="footer-category-link">Puma</a>
+                    <a href="" class="footer-category-link">Reebok</a>
+                    <a href="" class="footer-category-link">Compas</a>
+                    <a href="" class="footer-category-link">Salomon</a>
+                    <a href="" class="footer-category-link">Specs</a>
+                    <a href="" class="footer-category-link">Docmart</a>
+                    <a href="" class="footer-category-link">Vans</a>
+                    <a href="" class="footer-category-link">Asics</a>
+                    <a href="" class="footer-category-link">Diadora</a>
+                    <a href="" class="footer-category-link">Under Armour</a>
+                    <a href="" class="footer-category-link">Hoka</a>
+                    <a href="" class="footer-category-link">Sketcher</a>
+                    <a href="" class="footer-category-link">League</a>
+                    <a href="" class="footer-category-link">Eiger</a>
+                    <a href="" class="footer-category-link">Consina</a>
+                    <a href="" class="footer-category-link">Wakai</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Hobi & Koleksi :</h3>
+                    <a href="" class="footer-category-link">Gitar</a>
+                    <a href="" class="footer-category-link">Drum</a>
+                    <a href="" class="footer-category-link">Piano</a>
+                    <a href="" class="footer-category-link">Pianika</a>
+                    <a href="" class="footer-category-link">Suling</a>
+                    <a href="" class="footer-category-link">Biola</a>
+                    <a href="" class="footer-category-link">Ukulele</a>
+                    <a href="" class="footer-category-link">Angklung</a>
+                    <a href="" class="footer-category-link">Bola</a>
+                    <a href="" class="footer-category-link">Alat Olahraga</a>
+                    <a href="" class="footer-category-link">Lego & Pameran</a>
+                </div>
+
+                <div class="footer-category-box">
+                    <h3 class="category-box-title">Kosmetik :</h3>
+                    <a href="" class="footer-category-link">Lipstik</a>
+                    <a href="" class="footer-category-link">Primer</a>
+                    <a href="" class="footer-category-link">Fundation</a>
+                    <a href="" class="footer-category-link">Concealer</a>
+                    <a href="" class="footer-category-link">Eyeliner</a>
+                    <a href="" class="footer-category-link">Maskara</a>
+                    <a href="" class="footer-category-link">Pensil Alis</a>
+                    <a href="" class="footer-category-link">Blush On</a>
+                    <a href="" class="footer-category-link">Eye Shadow</a>
+                    <a href="" class="footer-category-link">Powder Brush</a>
+                    <a href="" class="footer-category-link">Beauty Blender</a>
+                    <a href="" class="footer-category-link">Cushion Puff</a>
+                    <a href="" class="footer-category-link">Blending Brush</a>
+                    <a href="" class="footer-category-link">Contour Brush</a>
+                    <a href="" class="footer-category-link">Beauty Sponge</a>
+                    <a href="" class="footer-category-link">Highlighter</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-nav">
+            <div class="container">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><h2 class="nav-title">Popular Categories</h2></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Fashion</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Cosmetic</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Kesehatan</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Jam Tangan</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Alat Musik</a></li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><h2 class="nav-title">Product</h2></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Prices drop</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">New products</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Best sales</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Contact us</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Sitemap</a></li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><h2 class="nav-title">Our Company</h2></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Delivery</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Legal Notice</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Terms and condition</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">About us</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Secure payment</a></li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><h2 class="nav-title">Services</h2></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Prices drop</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">New products</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Best sales</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Contact us</a></li>
+                    <li class="footer-nav-item"><a href="" class="footer-nav-link">Sitemap</a></li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><h2 class="nav-title">Contact</h2></li>
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <address class="content">
+                            Jakarta Selatan , Indonesia
+                        </address>
+                    </li>
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <a href="tel:+6281212344321" class="footer-nav-link">(+62) 812 1234 4321</a>
+                    </li>
+                    <li class="footer-nav-item flex">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <a href="hellionid@gmail.com" class="footer-nav-link">HellionID@gmail.com</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item">
+                        <h2 class="nav-title">Follow Us</h2>
+                    </li>
+                    <li>
+                        <ul class="social-link">
+                            <li class="footer-nav-item">
+                                <a href="" class="footer-nav-link">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="" class="footer-nav-link">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="" class="footer-nav-link">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li class="footer-nav-item">
+                                <a href="" class="footer-nav-link">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <img src="" alt="" class="payment-img">
+                <p class="copyright">&copy; <a href="">HelLionID 2024.</a>Hak Cipta Dilindungi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link JavaScript -->
+    <script src="./javascript/main.js"></script>
+
+    <!-- Link Ion Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
